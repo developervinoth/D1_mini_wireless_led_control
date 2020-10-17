@@ -5,8 +5,8 @@ int ledPin=2;
 //U8g2 Constructor List - https://github.com/olikraus/u8g2/wiki/u8g2setupcpp#introduction
 U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ 5, /* data=*/ 4);
 
-const char *ssid = "emp";
-const char *password = "12341234";
+const char *ssid = "Your WiFI SSID here";
+const char *password = "YOur Wifi Password";
 
 ESP8266WebServer server(80);
 
